@@ -1,0 +1,24 @@
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+.flattened-pom.xml
+
+### NetBeans ###
+nbproject/private/
+build/
+data/elasticsearch/
+target/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
