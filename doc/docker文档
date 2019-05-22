@@ -1,0 +1,15 @@
+docker教程地址:https://yeasy.gitbooks.io/docker_practice/content/
+docekr官方镜像仓库地址：https://hub.docker.com/
+
+
+便捷脚本安装命令：
+    $ curl -fsSL get.docker.com -o get-docker.sh
+    $ sudo sh get-docker.sh --mirror Aliyun
+    执行命令后，脚本就会自动的将一切准备工作做好，并且把 Docker CE 的 Edge 版本安装在系统中。
+启动 docker
+    $ sudo systemctl enable docker
+    $ sudo systemctl start docker
+
+
+
+
