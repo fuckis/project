@@ -8,4 +8,4 @@ git clone https://github.com/fuckis/project.git
 cd project
 
 mvn clean
-mvn install
+mvn install -P test
