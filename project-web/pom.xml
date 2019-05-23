@@ -14,6 +14,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>project-simple-web</module>
+        <module>project-consul-web</module>
     </modules>
 
     <dependencies>
