@@ -18,4 +18,25 @@ compose安装命令：
 停止服务：
     docker-compose -f docker-compose.yml down
 
+命令说明：
+    重启docker: sudo systemctl restart docker
+    查看正在运行的容器: docker ps
+    查看所有容器: docker ps -a
+    查看镜像: docker images
+    构建镜像: docker build -t 镜像名 .
+    查看日志: docker logs 镜像ID
+        参数说明: -f 查看实时日志
+
+
+文章介绍内相关命令：
+    启动打包镜像：
+    docker run -d --rm --privileged --net=host 镜像ID
+        参数说明:
+            -d: 后台启动
+            --it 启动 打印日志
+            --rm 容器运行结束自动删除容器
+            --privileged 授权 此参数加上之后才能运行docker in docker容器
+            --net=host 容器内网直接使用宿主机
+            -p 将容器内端口映射出来 例如 -p 8080:8080 访问宿主机的8080就会直接访问容器内的8080
+            -v 挂载目录 
 
