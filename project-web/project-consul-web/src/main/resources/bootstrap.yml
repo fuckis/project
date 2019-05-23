@@ -1,3 +1,5 @@
 spring:
   application:
     name: consul-web
+server:
+  port: 8081
