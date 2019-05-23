@@ -16,17 +16,30 @@
     <artifactId>project-service</artifactId>
 
     <dependencies>
+        <!-- 提供基础web服务 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <!-- 加载配置文件 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-context</artifactId>
         </dependency>
+        <!-- 服务公用 -->
         <dependency>
             <groupId>wang.mdan</groupId>
             <artifactId>project-common</artifactId>
+        </dependency>
+        <!-- 集成consul 服务注册与发现 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-consul-discovery</artifactId>
+        </dependency>
+        <!-- 健康监测  -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
     </dependencies>
 

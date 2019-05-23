@@ -40,3 +40,6 @@ compose安装命令：
             -p 将容器内端口映射出来 例如 -p 8080:8080 访问宿主机的8080就会直接访问容器内的8080
             -v 挂载目录 
 
+
+consul启动命令（单机模式）
+    docker run -d --name=consul --net=host consul
