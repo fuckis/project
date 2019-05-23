@@ -11,6 +11,13 @@
 
     <artifactId>project-consul-web</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+        </dependency>
+    </dependencies>
+
     <profiles>
         <profile>
             <id>dev</id>

@@ -1,8 +1,10 @@
 package web.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
 
 /**
  * Created by haddis on 2019/5/22.
@@ -11,8 +13,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/test")
 public class TestController {
 
+    @Autowired
+    private RestTemplate loadBalancedRestTemplate;
+
     @GetMapping("/get")
     public String get() {
-        return "get test";
+        String result = loadBalancedRestTemplate.getForObject("http://consul-service/service/test", String.class);
+        return result;
     }
 }
