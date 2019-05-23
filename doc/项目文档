@@ -1,0 +1,8 @@
+项目结构描述：
+project-build:项目根，只有一个pom文件描述，继承spring-boot-starter-parent，配置了项目中的全局参数
+project-dependencies: 项目依赖包和插件管理，定义了项目做的依赖和插件版本配置，
+                      在这里申明版本和配置可以保证每个服务的插件和依赖的配置和版本保持一直，
+                      避免以后更改依赖版本或者配置需要每个服务里面都修改一遍
+project-common:公共的依赖包，主要存放业务公共模型
+project-web:web层服务集合
+project-service:service层服务集合
