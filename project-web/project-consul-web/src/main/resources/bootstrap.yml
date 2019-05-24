@@ -7,11 +7,7 @@ server:
 
 ribbon:
   connectTimeout: 2000
-ribbon:
   readTimeout: 5000
-ribbon:
   maxAutoRetries: 1
-ribbon:
   maxAutoRetriesNextServer: 3
-ribbon:
   okToRetryOnAllOperations: true
