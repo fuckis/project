@@ -13,6 +13,6 @@ public class ServiceController {
 
     @GetMapping("/test")
     public String test() {
-        return "test2";
+        throw new RuntimeException();
     }
 }

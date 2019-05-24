@@ -1,5 +1,17 @@
 spring:
   application:
     name: consul-web
+
+# 请求连接的超时时间
+ribbon.connectTimeout=2000
+# 请求处理的超时时间
+ribbon.readTimeout=5000
+# 对当前实例的重试次数
+ribbon.maxAutoRetries=1
+# 切换实例的重试次数
+ribbon.maxAutoRetriesNextServer=3
+# 对所有操作请求都进行重试
+ribbon.okToRetryOnAllOperations=true
+
 server:
   port: 8080
