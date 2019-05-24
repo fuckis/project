@@ -5,9 +5,11 @@ spring:
 server:
   port: 8080
 
-ribbon:
-  connectTimeout: 2000
-  readTimeout: 5000
-  maxAutoRetries: 1
-  maxAutoRetriesNextServer: 3
-  okToRetryOnAllOperations: true
+consul-service:
+  ribbon:
+    ServerListRefreshInterval: 2000
+    ConnectTimeout: 3000
+    ReadTimeout: 3000
+    MaxAutoRetries: 1
+    MaxAutoRetriesNextServer: 3
+    OkToRetryOnAllOperations: true
