@@ -17,6 +17,16 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-consul-discovery</artifactId>
         </dependency>
+        <!-- 加载配置文件 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-context</artifactId>
+        </dependency>
+        <!-- 公共依赖 -->
+        <dependency>
+            <groupId>wang.mdan</groupId>
+            <artifactId>project-common</artifactId>
+        </dependency>
         <!-- 健康监测  -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

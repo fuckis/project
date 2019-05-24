@@ -2,5 +2,5 @@ spring:
   application:
     name: consul-service
 server:
-  port: 8071
+  port: 8070
 
