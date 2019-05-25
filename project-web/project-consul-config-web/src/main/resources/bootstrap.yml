@@ -3,7 +3,7 @@ spring:
     name: consul-config-web
   cloud:
     consul:
-      config:
+      config.:
         format: yaml
 
 server:
