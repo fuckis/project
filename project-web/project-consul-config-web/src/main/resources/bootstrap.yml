@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: consul-config-web
+  cloud:
+    consul:
+      config:
+        format: yaml
+
+server:
+  port: 8080
