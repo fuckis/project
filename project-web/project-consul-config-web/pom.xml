@@ -33,7 +33,7 @@
             <artifactId>spring-boot-configuration-processor</artifactId>
         </dependency>
     </dependencies>
-
+    <!--
     <profiles>
         <profile>
             <id>dev</id>
@@ -50,5 +50,5 @@
             </build>
         </profile>
     </profiles>
-
+    -->
 </project>

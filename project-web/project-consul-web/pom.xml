@@ -44,6 +44,7 @@
         </dependency>
     </dependencies>
 
+    <!--
     <profiles>
         <profile>
             <id>dev</id>
@@ -60,4 +61,5 @@
             </build>
         </profile>
     </profiles>
+    -->
 </project>

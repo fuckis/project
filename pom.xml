@@ -9,6 +9,7 @@
         <module>project-web</module>
         <module>project-common</module>
         <module>project-service</module>
+        <module>project-eureka-server</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
