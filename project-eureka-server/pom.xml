@@ -9,7 +9,6 @@
         <relativePath>../project-dependencies</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <packaging>jar</packaging>
 
     <artifactId>project-eureka-server</artifactId>
 
