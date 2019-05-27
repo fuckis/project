@@ -1,6 +1,16 @@
+
 eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
+    service-url:
+      defaultZone: http://admin:123456@127.0.0.1:8761
+
 server:
   port: 8761
+spring:
+  security:
+    user:
+      name: admin
+      password: 123456
+

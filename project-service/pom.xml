@@ -12,6 +12,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>project-consul-service</module>
+        <module>project-eureka-service</module>
     </modules>
     <artifactId>project-service</artifactId>
 
@@ -30,11 +31,6 @@
         <dependency>
             <groupId>wang.mdan</groupId>
             <artifactId>project-common</artifactId>
-        </dependency>
-        <!-- 集成consul 服务注册与发现 -->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-consul-discovery</artifactId>
         </dependency>
         <!-- 健康监测  -->
         <dependency>

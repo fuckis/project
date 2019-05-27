@@ -10,6 +10,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>project-consul-service</artifactId>
+
+    <!-- 集成consul 服务注册与发现 -->
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-consul-discovery</artifactId>
+        </dependency>
+    </dependencies>
+
     <!--
     <profiles>
         <profile>
