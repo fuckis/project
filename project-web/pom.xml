@@ -16,6 +16,7 @@
         <module>project-simple-web</module>
         <module>project-consul-web</module>
         <module>project-consul-config-web</module>
+        <module>project-fegin-web</module>
     </modules>
 
     <dependencies>
