@@ -7,3 +7,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://admin:123456@144.34.204.86:8761/eureka/
+    register-with-eureka: false
+feign:
+  hystrix:
+    enabled: true
